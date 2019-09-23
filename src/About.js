@@ -15,7 +15,7 @@ class About extends Component {
                 </div>
                 <div className="contact">
                     <h2>About Us</h2>
-                    <br/><br/><br/><br/><br/>
+                    <br/>
                     <form action="#">
                         <p>
                             <label><b>Us</b>
@@ -27,7 +27,6 @@ Seven years and 45 million learners later, we've perfected it.
                             <label><b>Our Company</b></label>
                             Elearn is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, W3.CSS, and Bootstrap, covering most aspects of web programming.
 The site derives its name from Latin.
-W3Schools was originally created in 1998 by Refsnes Data, a Norwegian software development and consulting company.
                         </p>
                     </form>
                 </div>
