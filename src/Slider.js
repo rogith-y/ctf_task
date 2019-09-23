@@ -11,8 +11,8 @@ class Slider extends Component {
                 alt="First slide"
               />
               <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h3>Evolve</h3>
+                <p>Evolve your Ideas.</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -23,8 +23,8 @@ class Slider extends Component {
               />
       
               <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h3>Choose</h3>
+                <p>Choose what to study</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -35,9 +35,9 @@ class Slider extends Component {
               />
       
               <Carousel.Caption>
-                <h3>Third slide label</h3>
+                <h3>Learn</h3>
                 <p>
-                  Praesent commodo cursus magna, vel scelerisqu.
+                  Learn how to make your idea come true.
                 </p>
               </Carousel.Caption>
             </Carousel.Item>

@@ -20,8 +20,8 @@ class Mainpage extends Component {
       link === "#blog"?
       <Blog/>:
       [
-      <h1>Home</h1>,
-      <h3>Loren Ipsum</h3>,
+      <h1>E-Learn</h1>,
+      <h3>Learning Made Fun</h3>,
       <Slider/>
       ]}
     </div>
