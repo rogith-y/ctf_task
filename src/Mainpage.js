@@ -3,6 +3,7 @@ import Slider from './Slider'
 import Contact from './Contact'
 import Courses from './Courses'
 import About from './About'
+import Blog from './Blog'
 
 class Mainpage extends Component {
     render() {
@@ -15,7 +16,10 @@ class Mainpage extends Component {
       link === "#about"?
       <About/>:
       link === "#courses"?
-      <Courses/>:[
+      <Courses/>:
+      link === "#blog"?
+      <Blog/>:
+      [
       <h1>Home</h1>,
       <h3>Loren Ipsum</h3>,
       <Slider/>
