@@ -7,11 +7,7 @@ class About extends Component {
             <div className="section animated bounceInLeft">
                 <div className="brandname">
                     <h3>CEG Tech Forum</h3>
-                    <ul>
-                        <li> +91 1234567890</li>
-                        <li>contact@ctf.com</li>
-                        <li>www.cegtechforum.com</li>
-                    </ul>
+                    <img src="/4.jpg" height="200" width="300" style={{borderRadius:"50px"}}></img>
                 </div>
                 <div className="contact">
                     <h2>About Us</h2>

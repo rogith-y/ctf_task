@@ -7,6 +7,8 @@ class Contact extends Component {
         <div className="section animated bounceInLeft">
             <div className="brandname">
                 <h3>CEG Tech Forum</h3>
+                <img src="/5.jpg" width="300" height="130" style={{borderRadius:"30px"}}></img><br/>
+                <br/>
                 <ul>
                     <li> +91 1234567890</li>
                     <li>contact@ctf.com</li>

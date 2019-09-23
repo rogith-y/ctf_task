@@ -32,12 +32,13 @@ ul {
 }
 
 .brandname {
-    background: #c9e6ff;
+    background: #464849;
 }
 
 .brandname h3, .brandname ul {
     text-align: center;
     margin: 0 0 1rem 0;
+    color:#f9feff;
 }
 
 .contact {
@@ -69,13 +70,13 @@ ul {
 }
 
 .contact form button {
-    background: #c9e6ff;
+    background: #5a646d;
     border: 0;
     text-transform: uppercase;
 }
 
 .contact form button:hover, .contact form button:focus {
-    background: #92bde7;
+    background: #2f2f30;
     color: #fff;
     outline: 0;
     transition: background-color 0.5s ease-out;
