@@ -6,7 +6,7 @@ class Courses extends Component {
             <div className="container">
         <div className="section animated bounceInLeft">
             <div className="brandname">
-                <h3>Courses</h3>
+                <h3>Contact for Help</h3>
                 <ul>
                     <li> +91 1234567890</li>
                     <li>contact@ctf.com</li>
