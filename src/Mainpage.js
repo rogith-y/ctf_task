@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Slider from './Slider'
 import Contact from './Contact'
+import Courses from './Courses'
 import About from './About'
 
 class Mainpage extends Component {
@@ -9,14 +10,16 @@ class Mainpage extends Component {
         return (
     <div className="et-main">
     <div className="et-slide" id="home">
-      <h1>Home</h1>
-      <h3>Loren Ipsum</h3>
       {link === "#contact"?
       <Contact/>:
       link === "#about"?
       <About/>:
+      link === "#courses"?
+      <Courses/>:[
+      <h1>Home</h1>,
+      <h3>Loren Ipsum</h3>,
       <Slider/>
-      }
+      ]}
     </div>
     </div>
         )
