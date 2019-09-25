@@ -4,6 +4,7 @@ import Contact from './Contact'
 import Courses from './Courses'
 import About from './About'
 import Blog from './Blog'
+import Page from './Page'
 
 class Mainpage extends Component {
     render() {
@@ -19,6 +20,8 @@ class Mainpage extends Component {
       <Courses/>:
       link === "#blog"?
       <Blog/>:
+      link === "#page"?
+      <Page/>:
       [
       <h1>E-Learn</h1>,
       <h3>Learning Made Fun</h3>,
