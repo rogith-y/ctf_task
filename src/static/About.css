@@ -70,13 +70,13 @@ ul {
 }
 
 .contact form button {
-    background: #5a646d;
+    background: #4b4949;
     border: 0;
     text-transform: uppercase;
 }
 
 .contact form button:hover, .contact form button:focus {
-    background: #2f2f30;
+    background: #000000;
     color: #fff;
     outline: 0;
     transition: background-color 0.5s ease-out;
