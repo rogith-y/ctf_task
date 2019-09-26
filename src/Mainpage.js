@@ -25,7 +25,7 @@ class Mainpage extends Component {
       <Page/>:
       [<div style={{marginTop: "80px"}}>
       <h1 style={{marginTop: "50px"}}><span style={{color: "#464849"}}>E</span><span>-</span><span>L</span><span>E</span><span>A</span><span>R</span><span>N</span></h1>
-      <h3>Learning Made Fun</h3></div>,
+      <h3 style={{fontFamily: '"Luckiest Guy", cursive'}}>Learning Made Fun</h3></div>,
       <Slider/>
       ]}
     </div>
