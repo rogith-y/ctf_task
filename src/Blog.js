@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './static/About.css'
+import './static/Glitch.css'
 class Blog extends Component {
     render() {
         return (
@@ -14,7 +15,7 @@ class Blog extends Component {
                     </ul>
                 </div>
                 <div className="contact">
-                    <h3>Blog</h3>
+                    <div className="glitch" data-text="Blogs">Blogs</div>
                  
                         <p>
                             <label><b>Web Design Agency: </b></label> &nbsp;

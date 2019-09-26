@@ -1,8 +1,10 @@
 body {
     font-family: "Century Gothic", 'Lato', sans-serif;
     overflow-x: hidden;
+    background-color: cornflowerblue
   }
   .carousel , .slide{
+    margin-top: 20px;
     width: 50%;
   }
   .carousel-caption {
@@ -27,6 +29,7 @@ body {
     background: #eee;
     text-align: center;
     padding: 0 2em;
+    background-color: cornflowerblue;
    
   }
   .et-hero-tabs h1,
@@ -55,6 +58,7 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     background: #eee;
     z-index: 10;
+    font-family: "Luckiest Guy", cursive;
   }
   .et-hero-tabs-container--top {
     position: fixed;

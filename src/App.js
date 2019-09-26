@@ -4,9 +4,16 @@ import './static/Mystyles.css'
 import Footer from './Footer';
 import MyNavbar from './MyNavbar';
 import Mainpage from './Mainpage';
+import Loading from './Loading';
 class App extends React.Component {
   state = {
-    link:""
+    link:"",
+    isLoading:true
+  }
+  componentDidMount(){
+    setInterval(()=>{
+      this.setState({isLoading:false})
+    },6000)
   }
   getLink = (link) => {
     this.setState({link:link})
@@ -14,9 +21,12 @@ class App extends React.Component {
   render(){
   return (
     <div className="App">
-    <MyNavbar clickedLink={this.getLink}/>
-    <Mainpage clickedLink={this.state.link}/>
-    <Footer/>
+    {this.state.isLoading?
+    <Loading/>:[
+    <MyNavbar clickedLink={this.getLink}/>,
+    <Mainpage clickedLink={this.state.link}/>,
+    <Footer/>,
+    ]}
     </div>
   );
 }
