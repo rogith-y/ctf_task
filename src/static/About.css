@@ -13,6 +13,9 @@
     padding: 1em;
     overflow: scroll;
 }
+::-webkit-scrollbar {
+    display: none;
+    }
 
 ul {
     list-style: none;

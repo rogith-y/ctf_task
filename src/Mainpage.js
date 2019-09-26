@@ -12,6 +12,7 @@ class Mainpage extends Component {
         const link = (this.props.clickedLink).replace("http://localhost:3000/","")
         return (
     <div className="et-main">
+    <div style={{overflow:"hidden",position:"relative"}}>
     <div className="et-slide" id="home">
       {link === "#contact"?
       <Contact/>:
@@ -28,6 +29,7 @@ class Mainpage extends Component {
       <h3 style={{fontFamily: '"Luckiest Guy", cursive'}}>Learning Made Fun</h3></div>,
       <Slider/>
       ]}
+    </div>
     </div>
     </div>
         )

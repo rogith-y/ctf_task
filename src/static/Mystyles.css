@@ -1,6 +1,7 @@
 body {
     font-family: "Century Gothic", 'Lato', sans-serif;
     overflow-x: hidden;
+    background-color: cornflowerblue
   }
   .carousel , .slide{
     margin-top: 20px;
@@ -28,6 +29,7 @@ body {
     background: #eee;
     text-align: center;
     padding: 0 2em;
+    background-color: cornflowerblue;
    
   }
   .et-hero-tabs h1,
