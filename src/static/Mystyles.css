@@ -3,6 +3,7 @@ body {
     overflow-x: hidden;
   }
   .carousel , .slide{
+    margin-top: 20px;
     width: 50%;
   }
   .carousel-caption {

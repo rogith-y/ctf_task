@@ -5,6 +5,7 @@ import Courses from './Courses'
 import About from './About'
 import Blog from './Blog'
 import Page from './Page'
+import './static/Bounce.css'
 
 class Mainpage extends Component {
     render() {
@@ -22,9 +23,9 @@ class Mainpage extends Component {
       <Blog/>:
       link === "#page"?
       <Page/>:
-      [
-      <h1>E-Learn</h1>,
-      <h3>Learning Made Fun</h3>,
+      [<div style={{marginTop: "80px"}}>
+      <h1 style={{marginTop: "50px"}}><span style={{color: "#464849"}}>E</span><span>-</span><span>L</span><span>E</span><span>A</span><span>R</span><span>N</span></h1>
+      <h3>Learning Made Fun</h3></div>,
       <Slider/>
       ]}
     </div>
