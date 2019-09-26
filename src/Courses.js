@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import './static/Glitch.css'
 class Courses extends Component {
     render() {
         return (
@@ -14,7 +14,7 @@ class Courses extends Component {
                 </ul>
             </div>
             <div className="contact">
-                <h3>Courses</h3>
+                <div className="glitch" data-text="Courses">Courses</div>
                 <form action="#">
                     <p>
                         <label><b>Python</b></label>

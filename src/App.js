@@ -13,7 +13,7 @@ class App extends React.Component {
   componentDidMount(){
     setInterval(()=>{
       this.setState({isLoading:false})
-    },6000)
+    },1000)
   }
   getLink = (link) => {
     this.setState({link:link})
