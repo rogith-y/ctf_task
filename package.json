@@ -2,7 +2,7 @@
   "name": "ctf",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Rogith-Ranger/ctf_task/",
+  "homepage": "https://rogith-ranger.github.io/ctf_task",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.1.1",
